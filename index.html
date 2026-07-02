@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>E-Commerce Product Catalog</h1>
+    <p>Cart Items: <span id="cartCount">0</span></p>
+</header>
+
+<div class="container">
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search Products...">
+    </div>
+
+    <div class="filter-box">
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Books">Books</option>
+        </select>
+    </div>
+
+    <div id="productList" class="products"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
